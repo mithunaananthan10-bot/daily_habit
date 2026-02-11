@@ -1,16 +1,74 @@
-# daily_habit
+📱 Daily Habit Tracker
 
-A new Flutter project.
+A simple Daily Habit Tracker app built using Flutter (frontend) and Python Flask (backend).
+Users can sign up, log in, add habits, mark them as done, and delete them.
 
-## Getting Started
+✨ Features
 
-This project is a starting point for a Flutter application.
+User login & signup
 
-A few resources to get you started if this is your first Flutter project:
+Add, view, and delete habits
 
-- [Lab: Write your first Flutter app](https://docs.flutter.dev/get-started/codelab)
-- [Cookbook: Useful Flutter samples](https://docs.flutter.dev/cookbook)
+Mark habits as completed
 
-For help getting started with Flutter development, view the
-[online documentation](https://docs.flutter.dev/), which offers tutorials,
-samples, guidance on mobile development, and a full API reference.
+Emoji-based habit display
+
+Data stored in database
+🛠 Technologies Used
+Frontend
+
+Flutter (Dart)
+
+Material UI
+
+Backend
+
+Python Flask
+
+SQLite Database
+
+Tools
+
+Git and GitHub
+
+VS Code
+
+Chrome browser
+
+daily_habit/
+│
+├── lib/
+│   ├── main.dart
+│   ├── loginpage.dart
+│   ├── signup.dart
+│   └── habitpage.dart
+│
+├── backend/
+│   └── app.py
+│
+├── pubspec.yaml
+├── pubspec.lock
+└── README.md
+
+▶ How to Run the Project
+Step 1: Run Backend
+
+Open terminal in backend folder and run:
+
+python app.py
+
+
+Backend will run at:
+
+http://127.0.0.1:5000
+
+Step 2: Run Flutter App
+
+Open terminal in Flutter project folder and run:
+
+flutter run -d chrome
+
+👩‍💻 Developer
+
+Name: Mithuna A
+Project Type:  Learning Project
